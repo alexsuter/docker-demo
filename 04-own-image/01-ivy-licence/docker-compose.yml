@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  ivy:
+    build: .
+    hostname: ivy
+    ports:
+     - "8080:8080"

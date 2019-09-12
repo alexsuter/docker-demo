@@ -1,8 +1,6 @@
 # docker commands
 
-Nginx as example.
 nginx is smart web server.
-
 https://hub.docker.com/_/nginx
 
 `docker run nginx`
@@ -50,17 +48,3 @@ run three more nginx in background
 
 `docker stop $(docker ps -q)`
 `docker rm $(docker ps -a -q)`
-
-
-
-# axon ivy docker image
-
-- Showing the current development release
-
-`docker run -p 8080:8080 axonivy/axonivy-engine:dev`
-
-now you already have running engine in demo mode http://localhost:8080/ivy
-
-you can configure everything with our brand new yaml files.
-
-

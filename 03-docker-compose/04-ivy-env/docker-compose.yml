@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  ivy:
+    image: "axonivy/axonivy-engine:dev"
+    ports:
+     - "8080:8080"
+    environment:
+      IVY_UpdateChecker_Enabled: "false"
+
+      #IVY_SYSTEMDB_DRIVER: com.mysql.jdbc.Driver
+      #IVY_SYSTEMDB_URL: jdbc:mysql://db:3306/AxonIvySystemDatabase
+      #IVY_SYSTEMDB_USERNAME: root
+      #IVY_SYSTEMDB_PASSWORD: 1234
