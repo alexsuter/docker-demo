@@ -39,7 +39,8 @@ run three more nginx in background
 
 `docker stop`
 
-`docker exec [name] ls`
+`docker cp test.txt [name]:/tmp`
+`docker exec [name] ls /tmp`
 `docker exec -it trusting_goldberg bash`
 
 
